@@ -26,12 +26,5 @@ function switchOnCharmFromTip(tip){
     case 'thanks for everything':
       return `Bye.`;
       break;
-    default:
-      console.log = "uh oh, something went wrong!"
-      console.log = tip
-      return 'Error"'
   }
 }
-
-
-console.log = switchOnCharmFromTip("generous")
